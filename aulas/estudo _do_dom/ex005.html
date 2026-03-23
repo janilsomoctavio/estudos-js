@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-ang">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primeiros passos com dom</title>
+    <style>
+        body{
+            background-color: cornflowerblue;
+            color: white;
+            font: normal 20pt arial;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>olá, mundo!</h1>
+    <hr>
+    <p>vamos inicializar os estudos!</p>
+    <p>aprendendo a utilizar o <strong>dom</strong> em js</p>
+    <div id = "msg"> clique em mim</div>
+    <script>
+        var p = window.document.getElementsByTagName("p")
+        
+        var d = window.document.getElementById("msg")
+
+        d.style.background = " green"
+        d.innerText = "DEUS INEFÁVEL!,  confuso com o desejo e a dotrina,  estou!, ajuda mim a alcançar o seu reino! "
+        
+        
+    </script>
+</body>
+</html>

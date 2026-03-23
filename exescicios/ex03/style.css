@@ -1,0 +1,30 @@
+@characetr"utf8";
+
+body{
+    background-color: cadetblue;
+}
+
+
+header {
+    text-align: center;
+    font-style: italic;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+
+      background-color: white;
+      border-radius: 10px;
+      padding: 15px;
+      width: 500px;
+      margin: auto;
+      box-shadow: 3px 3px 10px rgba(20, 19, 19, 0);
+  }
+  footer{
+
+        color: white;
+        text-align: center;
+        font-style: italic;
+        }
+   
+ 
